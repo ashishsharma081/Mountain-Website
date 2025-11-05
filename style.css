@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.first-section{
+    background-image: url('./assets/Images/landscape-mountains.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.first-section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+     background: radial-gradient(at center center, rgba(21, 50, 67, 0.5) 0%, rgba(26, 108, 122, 0.5) 100%);
+}
+
+.cst-padding{
+    padding-block: 8.8rem;
+}
+
+.navigation{
+    font-weight: 400 !important;
+    color: white !important;
+    padding-right: 1.5rem !important;
+}
+
+.action-btn{
+    padding: 12px 25px;
+    background-color: #1A6C7A;
+    color: white;
+    border: none;
+    font-size: 0.9rem;
+}
+
+.center-section{
+    position: relative;
+    z-index: 2;
+}
+
+.first-heading{
+    text-align: center;
+    line-height: 1.3em;
+    font-size: 1.75rem;
+    color: white;
+    font-weight: 600;
+}
+
+.second-heading{
+    text-align: center;
+    font-size: 3.125rem;
+    font-weight: 600;
+    color: white;
+    line-height: 1.4em;
+    text-transform: lowercase;
+}
+
+.center-para{
+    text-align: center;
+    color: white;
+}
+
+.service-btn{
+    padding: 10px 30px;
+    color: #FFFFFF;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FFFFFF;
+    background: none;
+    font-size: 0.9rem;
+}
+
+.about-btn{
+    padding: 10px 30px;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FFFFFF;
+     font-size: 0.9rem;
+}
+
+.card{
+    border: none !important;
+}
+
+.cst-margin{
+    margin-top: 8rem !important;
+}
+
+.our-history{
+    padding: 12px 30px;
+    font-size: 0.8rem;
+    background: none;
+    font-weight: 400;
+    margin-top: 1.3rem;
+}
+
+.third-section{
+    background-image: url('./assets/Images/fogs-on-green-mountain.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.third-section::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(at center center, rgba(21, 50, 67, 0.5) 0%, rgba(26, 108, 122, 0.5) 100%);
+}
+
+.third-inner-one{
+    position: relative;
+    z-index: 2;
+}
+
+.cst-padding-two{
+    padding-block: 11rem;
+}
+
+.fourth-section{
+    background-color: #e4f8fe !important;
+}
+
+ul>li{
+    list-style: none;
+}
+
+ul>li>a{
+    text-decoration: none;
+}
+
+.foot-tab-color{
+    color: #1A6C7A !important;
+}
+
+.cst-padding-three{
+    padding-block: 7rem;
+}
+
+.FAQ-Section{
+    background-color: #F3F9FB;
+}
+
+.accordion-button::after {
+    background: none !important;
+}
+
+.about-third-sec{
+     background-color: #e4f8fe !important;
+}
+
+.accordion-item-padding{
+    padding: 1.6rem !important;
+}
+
+.map-dim{
+    width: 100% !important;
+    height: 50vh;
+}
+
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.submit-btn{
+    padding: 10px 14px;
+    background-color: #1A6C7A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.input-style{
+    padding-block: 0.7rem !important;
+}
+
+.text-area-style{
+    padding-block: 2rem !important;
+}
+
+.map-frame{
+    width: 100%;
+    height: 70vh;
+}
+
+@media screen and (max-width: 576px) {
+    .mob-margin{
+        margin-top: 1.5rem !important;
+    }
+}
+ /* background: radial-gradient(at center center, rgba(21, 50, 67, 0.5) 0%, rgba(26, 108, 122, 0.5) 100%); */
